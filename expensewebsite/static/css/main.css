@@ -3,6 +3,7 @@
     text-anchor: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
   }
 
@@ -12,12 +13,11 @@
     }    
   }
 
-.showPasswordToggle{
+.showPasswordToggle {
   cursor: pointer;
-  transition: all;
+  transition: all !important;
 }
 
-.showPasswordToggle:hover{
-  transform: scale(1.2);
-
+.showPasswordToggle:hover {
+  transform: scale(1.2) !important;
 }
